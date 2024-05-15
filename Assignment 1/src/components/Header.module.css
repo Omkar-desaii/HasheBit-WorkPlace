@@ -1,0 +1,128 @@
+.techMedia1 {
+  height: 73px;
+  width: 174px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -15px;
+  left: 19px;
+  object-fit: cover;
+}
+.githubIcon,
+.linkedinIcon,
+.twitterIcon {
+  align-self: stretch;
+  width: 77.9px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  min-height: 41px;
+}
+.header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-3xs) var(--padding-6xl) var(--padding-3xl);
+  gap: var(--gap-base-7);
+}
+.header,
+.home,
+.menubbar {
+  position: relative;
+}
+.menubbar {
+  height: 48px;
+  width: 1176px;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.home {
+  height: 34px;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 63px;
+  z-index: 1;
+}
+.homeWrapper {
+  width: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.aboutus,
+.services {
+  position: relative;
+  display: inline-block;
+  min-width: 88px;
+  z-index: 1;
+}
+.services {
+  min-width: 82px;
+}
+.servicesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+}
+.contactus {
+  position: relative;
+  display: inline-block;
+  min-width: 106px;
+  z-index: 1;
+}
+.menubar {
+  width: 1176px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xl) var(--padding-11xs);
+  box-sizing: border-box;
+  gap: var(--gap-43xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.headerGitHubLinkedInTwitt,
+.mainMenu {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.headerGitHubLinkedInTwitt {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-3xs);
+}
+.mainMenu {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1200px) {
+  .menubar {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .menubar {
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .menubar {
+    gap: var(--gap-mini);
+  }
+}

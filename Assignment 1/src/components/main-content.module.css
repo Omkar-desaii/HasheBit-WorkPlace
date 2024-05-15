@@ -1,0 +1,314 @@
+.maincontent {
+  width: 1210px;
+  height: 617px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.offer {
+  color: var(--color-indigo);
+}
+.whatWeOfferContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  z-index: 1;
+  font-family: inherit;
+}
+.whatWeOfferWrapper {
+  width: 862px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.websiteBuildingAnd {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.webDevelopmentServices {
+  align-self: stretch;
+  width: 250px;
+  position: relative;
+  background-color: var(--color-mediumblue);
+  display: none;
+}
+.websiteBuiltingIcon {
+  height: 246px;
+  width: 246px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.navigatingTomorrowsTechnolog {
+  background-color: var(--color-mediumblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs);
+}
+.webDevelopmentExpertise {
+  color: var(--color-indigo);
+}
+.elevateYourOnlineContainer {
+  height: 129px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+}
+.elevateYourOnlinePresenceWWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+}
+.elevateYourOnlinePresenceWWrapper,
+.termsOfServiceSiteMapPriv,
+.trendtechSolutions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.trendtechSolutions {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-smi);
+}
+.termsOfServiceSiteMapPriv {
+  width: 260px;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-montagu-slab);
+}
+.websiteBuildingAndDevelopmeParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  min-width: 220px;
+}
+.dataAnalyticsServices {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.dataAnalyticsSolutions {
+  align-self: stretch;
+  width: 250px;
+  position: relative;
+  background-color: var(--color-blue);
+  display: none;
+}
+.dataAnalyticsIcon {
+  height: 246px;
+  width: 246px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.dataAnalyticsSolutionsParent {
+  background-color: var(--color-blue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs);
+}
+.dataAnalyticsServices1 {
+  color: var(--color-indigo);
+}
+.withOurDataContainer {
+  height: 148px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+}
+.withOurDataAnalyticsServicWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 var(--padding-10xs);
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.dataAnalyticsServicesParent,
+.frameContainer,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  width: 260px;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-montagu-slab);
+}
+.dataAnalyticsServicesParent,
+.frameWrapper {
+  flex-direction: column;
+}
+.dataAnalyticsServicesParent {
+  align-self: stretch;
+  gap: var(--gap-29xl);
+}
+.frameWrapper {
+  flex: 1;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 220px;
+  color: var(--color-blue);
+}
+.cloudComputingServices {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.cloudComputingSolutions {
+  align-self: stretch;
+  width: 250px;
+  position: relative;
+  background-color: var(--color-indigo);
+  display: none;
+}
+.cloudIcon {
+  height: 246px;
+  width: 246px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.cloudComputingSolutionsParent,
+.frameWrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cloudComputingSolutionsParent {
+  background-color: var(--color-indigo);
+  padding: var(--padding-11xs);
+}
+.frameWrapper1 {
+  padding: 0 var(--padding-7xs);
+}
+.cloudComputing {
+  color: var(--color-indigo);
+}
+.leverageOurTailoredContainer {
+  height: 152px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+}
+.leverageOurTailoredSolutionWrapper {
+  width: 262px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-montagu-slab);
+}
+.cloudComputingServicesParent,
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cloudComputingServicesParent {
+  align-self: stretch;
+  gap: var(--gap-mini);
+}
+.frameDiv {
+  flex: 1;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 220px;
+  color: var(--color-indigo);
+}
+.frameParent,
+.mainContent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-6xs-5);
+  z-index: 1;
+  font-size: var(--font-size-6xl);
+  color: var(--color-mediumblue);
+  font-family: var(--font-inter);
+}
+.mainContent {
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-140xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-25xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1200px) {
+  .mainContent {
+    padding-left: var(--padding-60xl);
+    padding-right: var(--padding-60xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .whatWeOfferContainer {
+    font-size: var(--font-size-9xl);
+  }
+  .mainContent {
+    gap: var(--gap-3xl);
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatWeOfferContainer {
+    font-size: var(--font-size-2xl);
+  }
+  .dataAnalyticsServices,
+  .websiteBuildingAnd {
+    font-size: var(--font-size-xl);
+  }
+  .dataAnalyticsServicesParent {
+    gap: var(--gap-5xl);
+  }
+  .cloudComputingServices {
+    font-size: var(--font-size-xl);
+  }
+}

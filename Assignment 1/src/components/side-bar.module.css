@@ -1,0 +1,114 @@
+.sidebar1 {
+  width: 231px;
+  height: 1024px;
+  position: relative;
+  background-color: var(--color-skyblue);
+  display: none;
+}
+.trendtechInfo {
+  position: relative;
+  font-weight: 800;
+  z-index: 1;
+}
+.trendtechInfoWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 var(--padding-mini);
+}
+.frameChild {
+  align-self: stretch;
+  height: 51px;
+  z-index: 1;
+}
+.featuredCaseStudy {
+  height: 51px;
+  width: 199px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  display: none;
+}
+.documentIcon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  object-fit: contain;
+  min-height: 30px;
+  z-index: 1;
+}
+.featuredCaseStudy1 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 800;
+  font-family: var(--font-mukta-malar);
+  color: var(--color-indigo);
+  text-align: left;
+  z-index: 1;
+}
+.featuredCaseStudyParent,
+.featuredCaseStudyWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.featuredCaseStudyParent {
+  cursor: pointer;
+  border: 0 solid var(--color-black);
+  padding: var(--padding-4xs) var(--padding-7xs) var(--padding-xs);
+  background-color: var(--color-lavender);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  gap: var(--gap-6xs);
+  z-index: 1;
+}
+.frameInner,
+.frameItem {
+  align-self: stretch;
+  height: 51px;
+  z-index: 1;
+}
+.frameParent,
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-4xl);
+}
+.sidebar {
+  width: 231px;
+  background-color: var(--color-skyblue);
+  padding: var(--padding-53xl) var(--padding-mini) var(--padding-555xl)
+    var(--padding-mid);
+  box-sizing: border-box;
+  gap: var(--gap-44xl);
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-indigo);
+  font-family: var(--font-mukta-malar);
+}
+@media screen and (max-width: 1050px) {
+  .sidebar {
+    display: none;
+    padding-top: var(--padding-28xl);
+    padding-bottom: var(--padding-354xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .trendtechInfo {
+    font-size: var(--font-size-xl);
+  }
+  .sidebar {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-223xl);
+    box-sizing: border-box;
+  }
+}

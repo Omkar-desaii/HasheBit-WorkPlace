@@ -1,0 +1,161 @@
+.footerChild {
+  width: 1209px;
+  height: 234px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.trendtechSolutions {
+  letter-spacing: 0.22em;
+  font-weight: 800;
+  display: inline-block;
+  max-width: 100%;
+}
+.navigatingTomorrowsTechnolo,
+.trendtechSolutions {
+  position: relative;
+  z-index: 1;
+}
+.navigatingTomorrowsTechnoloWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-2xl);
+  font-size: var(--font-size-lg);
+}
+.trendtechSolutionsParent {
+  width: 401px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.termsOfService1 {
+  position: relative;
+  text-decoration: underline;
+  z-index: 1;
+}
+.termsOfService {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+}
+.contactInformation,
+.siteMap {
+  position: relative;
+  text-decoration: underline;
+  z-index: 1;
+}
+.siteMap {
+  display: inline-block;
+  min-width: 88px;
+}
+.termsOfService2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-39xl);
+}
+.privacyPolicy {
+  position: relative;
+  text-decoration: underline;
+  z-index: 1;
+}
+.termsOfService3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-14xl) 0 var(--padding-15xl);
+}
+.mainFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-7);
+  min-width: 204px;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.omkarAllRights {
+  position: relative;
+  z-index: 1;
+}
+.contactInformation1 {
+  width: 662px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+  font-size: var(--font-size-mini);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) var(--padding-255xl) var(--padding-10xl)
+    var(--padding-87xl);
+  box-sizing: border-box;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding-left: var(--padding-34xl);
+    padding-right: var(--padding-118xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .mainFooter {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footer {
+    gap: var(--gap-lgi);
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-49xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactInformation,
+  .privacyPolicy,
+  .siteMap,
+  .termsOfService1,
+  .trendtechSolutions {
+    font-size: var(--font-size-base);
+  }
+  .footer {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

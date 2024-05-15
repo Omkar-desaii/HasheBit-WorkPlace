@@ -1,0 +1,44 @@
+/* css code goes here */
+
+.strike {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+}
+
+.todo-container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-item.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+.complete-btn,
+.trash-btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
