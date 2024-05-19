@@ -1,0 +1,60 @@
+/* src/SurveyForm.css */
+.form-container {
+    padding: 20px;
+    margin: 40px auto; /* Increase the top margin to move the box downward */
+    max-width: 500px;
+    height:600px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #00c3ff;
+  }
+  
+  form {
+    display: inline-block;
+    text-align: left;
+    width: 90%;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .name-group div {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .name-group div:last-child {
+    margin-right: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border:1px;
+    cursor: pointer;
+    margin-Left: auto;
+    margin-Right:auto;
+    display: block; 
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
