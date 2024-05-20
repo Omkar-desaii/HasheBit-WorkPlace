@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./SurveyForm.css";
-
+import myImage from "./image.jpg";
+import styled from "styled-components";
 const SurveyForm = () => {
   const [formData, setFormData] = useState({
     firstName: "",
@@ -27,10 +28,16 @@ const SurveyForm = () => {
     console.log("Form data submitted:", formData);
     setSubmitted(true); // Set submitted state to true after form submission
   };
+  const StyledImage = styled.img`
+    width: 100%;
+    height: 50px;
+  `;
 
   return (
     <div className="form-container">
-      <h1>Survey Form</h1>
+      <StyledImage src={myImage} alt="Description" />
+
+      <h1 style={{ textAlign: 'center' }}>Survey Form</h1>
 
       <form onSubmit={handleSubmit}>
         <div className="form-group name-group">

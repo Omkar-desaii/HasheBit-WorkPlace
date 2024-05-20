@@ -3,9 +3,17 @@ import React from "react";
 import SurveyForm from "./SurveyForm";
 import "./App.css";
 
+const divStyle = {
+  backgroundImage: `url(/logo192.png)`,
+  height: '100vh',
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+};
+
+
 function App() {
   return (
-    <div className="App">
+    <div >
       <header className="App-header">
         <SurveyForm />
       </header>
