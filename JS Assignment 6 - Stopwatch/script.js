@@ -6,7 +6,7 @@ let seconds = 0;
 function start() {
   document.getElementById("start").disabled = true;
   document.getElementById("pause").disabled = false;
-  document.getElementById("stop").disabled = false;
+  document.getElementById("reset").disabled = false;
   timer = setInterval(updateTime, 1000);
 }
 
@@ -26,8 +26,10 @@ function stop() {
   clearInterval(timer);
   document.getElementById("start").disabled = false;
   document.getElementById("pause").disabled = true;
-  document.getElementById("stop").disabled = true;
-  document.getElementById("time").textContent = "00:00:00";
+  document.getElementById("reset").disabled = true;
+  document.getElementById("pause").textContent = "Pause";
+  document.getElementById("pause").onclick = pause;
+  document.getElementById("time").textContent = "00 : 00 : 00";
   hours = 0;
   minutes = 0;
   seconds = 0;
@@ -43,7 +45,8 @@ function updateTime() {
       hours++;
     }
   }
-  const formattedTime = pad(hours) + ":" + pad(minutes) + ":" + pad(seconds);
+  const formattedTime =
+    pad(hours) + " : " + pad(minutes) + " : " + pad(seconds);
   document.getElementById("time").textContent = formattedTime;
 }
 
